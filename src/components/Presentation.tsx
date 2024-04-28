@@ -9,7 +9,7 @@ export const Presentation = () => {
 
         <div className='flex flex-col items-start'>
           <h1 className='text-5xl font-bold'>Hi, I&#39;m <span className='text-amber-400'>Luciano</span></h1>
-          <p className='text-xl font-bold text-amber-400'>Web developer</p>
+          <p className='text-xl font-bold text-amber-400'>Full-Stack Developer</p>
         </div>
 
         <div className='text-lg'>
