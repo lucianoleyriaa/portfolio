@@ -2,9 +2,9 @@ import React from 'react'
 
 const menuItems = [
   { label: 'Experience', link: '#experience' },
-  { label: 'About me', link: '' },
-  { label: 'Projects', link: '' },
-  { label: 'Technologies', link: '' },
+  { label: 'Projects', link: '#projects' },
+  { label: 'About me', link: '#about-me' },
+  { label: 'Technologies', link: '#technologies' },
 ]
 
 // backgrounColor = #020617
