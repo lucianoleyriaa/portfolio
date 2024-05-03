@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen relative flex-col items-center justify-between bg-slate-950">
+    <main className="min-h-screen relative flex-col items-center justify-between bg-slate-950 py-20 md-py-0">
 
       <Header />
 

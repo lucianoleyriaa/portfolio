@@ -6,10 +6,10 @@ import { TechnologyBadge } from './TechnologyBadge';
 
 export const Projects = () => {
   return (
-    <div id='projects' className='w-9/12 m-auto p-3 sm:px-6 md:px-12 pt-12 pb-24'>
-      <h3 className='text-4xl text-center'>Projects</h3>
+    <div id='projects' className='md:w-9/12 md:m-auto p-3 sm:px-6 md:px-12 pt-12 pb-24'>
+      <h3 className='text-2xl md:text-4xl text-center'>Proyectos</h3>
 
-      <div className='my-20'>
+      <div className='my-8 md:my-20'>
         <ProjectItem 
           title='Budget App - Expense Tracker'
           description='

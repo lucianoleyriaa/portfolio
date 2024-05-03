@@ -40,19 +40,19 @@ const tools = [
 
 export const Technologies = () => {
   return (
-    <div id='technologies' className='w-9/12 m-auto p-3 sm:px-6 md:px-12 pt-12 pb-24'>
-      <h3 className='text-4xl text-center'>Technologies</h3>
+    <div id='technologies' className='md:w-9/12 m-auto md:p-3 sm:px-6 md:px-12 md:pt-12 md:pb-24'>
+      <h3 className='text-2xl md:text-4xl text-center'>Tecnologías</h3>
 
-      <div className='px-20'>
-        <p className='my-10 text-gray-400'>
+      <div className='px-6 md:px-20'>
+        <p className='my-10 text-gray-400 text-center md:text-left'>
           En estos años como <span className='text-amber-400 font-bold'>programador</span> he trabajado 
           con varias <span className='text-amber-400 font-bold'>tecnologias, frameworks, librerias y herramientas</span>.
         </p>
 
-        <div className='grid grid-cols-4 gap-8'>
+        <div className='flex flex-col gap-4 items-center md:grid md:grid-cols-4 md:gap-8'>
           <TechnologyCard title='Frontend' technologies={ frontendTechnologies } />
           <TechnologyCard title='Backend' technologies={ backendtechnologies } />
-          <TechnologyCard title='Mobile' technologies={ mobileTechnologies } />
+          <TechnologyCard title='Mobile' technologies={ mobileTechnologies } styles='order-last' />
           <TechnologyCard title='Herramientas' technologies={ tools } />
         </div>
       </div>

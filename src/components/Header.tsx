@@ -1,16 +1,16 @@
 import React from 'react'
 
 const menuItems = [
-  { label: 'Experience', link: '#experience' },
-  { label: 'Projects', link: '#projects' },
-  { label: 'About me', link: '#about-me' },
-  { label: 'Technologies', link: '#technologies' },
+  { label: 'Experiencia', link: '#experience' },
+  { label: 'Proyectos', link: '#projects' },
+  { label: 'Sobre mí', link: '#about-me' },
+  { label: 'Tecnologías', link: '#technologies' },
 ]
 
 export const Header = () => {
   return (
     <header className='w-full fixed top-0 left-0 z-10 p-4 backdrop-blur-sm bg-slate-950/30'>
-      <nav className='flex items-center justify-between px-40'>
+      <nav className='hidden md:flex md:items-center md:justify-between md:px-40'>
         <div className='flex items-center gap-8'>
           {
             menuItems.map((item, index) => {
