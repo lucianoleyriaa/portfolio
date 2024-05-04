@@ -13,19 +13,17 @@ export const Projects = () => {
         <ProjectItem 
           title='Budget App - Expense Tracker'
           description='
-            Budget App is an application that allows you to track all your incomes and outcomes and show you statistics using charts.
+            Budget app es una aplicación que facilita el registro de todos los ingresos y gastos diarios en categorías, 
+            ayudando en la administración financiera. También ofrece herramientas gráficas para visualizar el flujo monetario 
+            a lo largo de los meses, facilitando la toma de decisiones para mejorar la situación financiera.
           '
           githubLink=''
-          pageLink=''
+          pageLink='https://budget-app-sooty.vercel.app/auth/login'
           projectPoster='/images/budget.png'
         >
           <TechnologyBadge 
             label='Node'
             icon={ <Image src='/svg/node.svg' className='block' width={15} height={15} alt='' /> }
-          />
-          <TechnologyBadge 
-            label='Express'
-            icon={ <Image src='/svg/express.svg' className='block' width={15} height={15} alt='' /> }
           />
           <TechnologyBadge 
             label='React'
@@ -50,23 +48,25 @@ export const Projects = () => {
         <ProjectItem
           title='Image cropper'
           description='
-            Budget App is an application that allows you to track all your incomes and outcomes and show you statistics using charts.
+            Image cropper es un herramienta sencilla que permite transformar tus imagenes. Con image cropper puedes
+            desde cortar una imagen basada en un aspect ratio, hasta agregar tu propio marca de agua. Ademas puedes 
+            redimensionar o descargar una imagen con tan solo un link.
           '
           githubLink=''
-          pageLink=''
+          pageLink='https://image-cropper-next.vercel.app/images/crop'
           projectPoster='/images/image-cropper.png'
         >
           <TechnologyBadge 
-            label='Node'
-            icon={ <Image src='/svg/node.svg' className='block' width={15} height={15} alt='' /> }
+            label='NextJS'
+            icon={ <Image src='/svg/next.svg' className='block' width={15} height={15} alt='' /> }
           />
           <TechnologyBadge 
-            label='Express'
-            icon={ <Image src='/svg/express.svg' className='block' width={15} height={15} alt='' /> }
+            label='Tailwind'
+            icon={ <Image src='/svg/tailwind.svg' className='block' width={15} height={15} alt='' /> }
           />
           <TechnologyBadge 
-            label='React'
-            icon={ <Image src='/svg/react.svg' className='block' width={15} height={15} alt='' /> }
+            label='NestJS'
+            icon={ <Image src='/svg/nest.svg' className='block' width={15} height={15} alt='' /> }
           />
           <TechnologyBadge 
             label='Docker'
