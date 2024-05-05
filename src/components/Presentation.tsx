@@ -9,11 +9,11 @@ export const Presentation = () => {
 
         <div className='flex flex-col items-start'>
           <h1 className='text-2xl md:text-4xl font-bold'>Hola, <span className='text-amber-400'>soy Luciano</span></h1>
-          <p className='text-sm md:text-xl font-bold text-amber-400'>Full-Stack Developer</p>
+          <p className='text-sm md:text-xl font-bold text-amber-400'>Desarrollador Backend</p>
         </div>
 
         <div className='text-sm md:text-lg'>
-          <p>+2 year of experience as FullStack developer. Expecializado en crear soluciones tecgnologicas del lado del servidor con Node</p>
+          <p><span className='text-amber-400 text-bold'>+2 años de experiencia</span> como <span className='text-indigo-600 font-bold'>Desarrollador Backend</span>. Expecializado en crear soluciones tecnologícas del lado del servidor.</p>
         </div>
 
         <div className='my-1 md:my-3 flex items-center gap-1 md:gap-2'>

@@ -19,14 +19,14 @@ export const AboutMe = () => {
 
         <div className='px-4 md:px-20 text-gray-400 text-sm md:text-base'>
           <p className='my-4'>
-            Hola &#128075;, soy <span className='text-amber-400 font-bold'>Luciano Leyria</span>, desarrollador full stack. Inicie en el mundo del software en 2019 cuando comenzó estudiar 
+            Hola &#128075;, soy <span className='text-amber-400 font-bold'>Luciano Leyria</span>, desarrollador backend. Inicie en el mundo del software en 2019 cuando comenzó estudiar 
             <span className='text-indigo-600 font-bold'> analista en sistemas 💻</span>. Actualmente me encuentro trabajando como desarrollador fullstack en un empresa dentro del campo 
             del marketing.
           </p>
 
           <p className='my-4'>
             En estos 2 años, he trabajado principalmente como <span className='text-indigo-600 font-bold'>desarrollador backend en Node y PHP</span>, pero también he realizado diferentes tareas de 
-            frontend utilizando <span className='text-indigo-600 font-bold'>Angular</span>. Por otra parte, he realizado tareas de <span className='text-amber-400 font-bold'>mantenimientos y 
+            frontend utilizando <span className='text-indigo-600 font-bold'>Angular</span>. Por otra parte, he realizado tareas de <span className='text-amber-400 font-bold'>mantenimiento y 
             actualización de servidores</span> basados en linux. 
           </p>
 
