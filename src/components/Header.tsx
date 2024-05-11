@@ -9,8 +9,8 @@ const menuItems = [
 
 export const Header = () => {
   return (
-    <header className='w-full fixed top-0 left-0 z-10 p-4 backdrop-blur-sm bg-slate-950/30'>
-      <nav className='hidden md:flex md:items-center md:justify-between md:px-40'>
+    <header className='w-full fixed top-0 left-0 z-10 p-4 md:backdrop-blur-sm md:bg-slate-950/30'>
+      <nav className='hidden md:flex md:items-center md:justify-between lg:px-40'>
         <div className='flex items-center gap-8'>
           {
             menuItems.map((item, index) => {

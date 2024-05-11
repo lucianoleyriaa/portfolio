@@ -13,8 +13,8 @@ interface Props {
 
 export const ProjectItem = ({ title, description, githubLink, pageLink, projectPoster, children }: Props) => {
   return (
-    <div className='flex flex-col md:flex-row gap-6 m-auto'>
-      <div className='w-2/2 md:w-1/2'>
+    <div className='flex flex-col lg:flex-row gap-6 m-auto'>
+      <div className='w-2/2 lg:w-1/2'>
         <Image 
           className='rounded-xl m-auto'
           src={ projectPoster }
@@ -23,8 +23,8 @@ export const ProjectItem = ({ title, description, githubLink, pageLink, projectP
           height={0}
         />
       </div>
-      <div className='w-2/2 md:w-1/2'>
-        <h3 className='text-lg text-center md:text-left md:text-2xl font-bold'>{ title }</h3>
+      <div className='w-2/2 lg:w-1/2'>
+        <h3 className='text-lg text-center lg:text-left md:text-2xl font-bold'>{ title }</h3>
 
         <div className='flex flex-wrap gap-3 my-3'>
           { children }

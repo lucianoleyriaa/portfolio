@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const Presentation = () => {
   return (
-    <div className='w-1/2 md:h-screen m-auto md:p-20 md:py-80 flex flex-col md:flex-row items-center gap-8'>
+    <div className='w-1/2 mt-8 md:mt-0 md:h-screen m-auto md:p-5 xl:p-20 md:py-80 flex flex-col md:flex-row items-center gap-8'>
       <div className='flex flex-col items-start gap-6 md:gap-8'>
 
         <div className='flex flex-col items-start'>

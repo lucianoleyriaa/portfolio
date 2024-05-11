@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const AboutMe = () => {
   return (
-    <div id='about-me' className='md:w-9/12 m-auto md:p-3 sm:px-4 md:px-12 md:pt-12 md:pb-24'>
+    <div id='about-me' className='lg:w-9/12 m-auto md:p-3 sm:px-4 md:px-12 md:pt-12 md:pb-24'>
       <h3 className='text-2xl md:text-4xl text-center'>Sobre mí</h3>
 
       <div className='flex flex-col'>
@@ -49,7 +49,7 @@ export const AboutMe = () => {
 
         </div>
 
-        <div className='text-center mt-8 transition hover:scale-105 duration-300 ease-out'>
+        <div className='text-center my-8 transition hover:scale-105 duration-300 ease-out'>
           <a href='/files/CV-Luciano-Leyria-English.pdf' download className='mr-4 cursor-pointer rounded-3xl bg-indigo-500 px-4 py-2 hover:bg-indigo-400'>Download CV</a>
         </div>
 
