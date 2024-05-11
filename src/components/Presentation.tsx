@@ -49,7 +49,7 @@ export const Presentation = () => {
       <div className='order-first md:order-last'>
         <Image 
           className='rounded-full'
-          src='/images/cv.jpeg'
+          src='/images/profile-picture-cropped.jpeg'
           alt='Profile picture'
           width={400}
           height={0}
