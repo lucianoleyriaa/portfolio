@@ -6,7 +6,7 @@ import { TechnologyBadge } from './TechnologyBadge';
 
 export const Projects = () => {
   return (
-    <div id='projects' className='md:w-4/5 lg:w-2/3 xl:w-1/2 2xl:w-2/3 md:m-auto p-3 sm:px-6 md:px-12 pt-12 pb-24'>
+    <div id='projects' className='md:w-4/5 lg:w-2/3 xl:w-1/2 2xl:w-2/3 md:m-auto p-3 sm:px-6 md:px-12 pt-12 pb-24 dark:text-white text-gray-800'>
       <h3 className='text-2xl md:text-4xl text-center'>Proyectos</h3>
 
       <div className='my-8 md:my-20'>

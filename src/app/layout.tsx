@@ -16,12 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
         <link rel="icon" href="/svg/dev.svg" />
       </head>
-      <body className={`${inter.className} bg-slate-950`}>{children}</body>
+      <body className={`${inter.className} bg-slate-100 dark:bg-slate-950`}>{children}</body>
     </html>
   );
 }

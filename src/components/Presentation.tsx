@@ -8,11 +8,11 @@ export const Presentation = () => {
       <div className='flex flex-col items-start gap-6 md:gap-8'>
 
         <div className='flex flex-col items-start'>
-          <h1 className='text-2xl md:text-4xl font-bold'>Hola, <span className='text-amber-400'>soy Luciano</span></h1>
+          <h1 className='text-2xl md:text-4xl font-bold text-gray-800 dark:text-white'>Hola, <span className='text-amber-400'>soy Luciano</span></h1>
           <p className='text-sm md:text-xl font-bold text-amber-400'>Desarrollador Backend</p>
         </div>
 
-        <div className='text-sm md:text-lg'>
+        <div className='text-sm md:text-lg text-gray-800 dark:text-white'>
           <p><span className='text-amber-400 text-bold'>+2 años de experiencia</span> como <span className='text-indigo-600 font-bold'>Desarrollador Backend</span>. Expecializado en crear soluciones tecnologícas del lado del servidor.</p>
         </div>
 

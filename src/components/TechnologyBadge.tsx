@@ -7,7 +7,7 @@ interface Props {
 
 export const TechnologyBadge = ({ label, icon }: Props) => {
   return (
-    <div className='flex gap-1 items-center text-sm px-2 py-1 rounded-xl ring-1 ring-inset ring-gray-600 bg-gray-900'>
+    <div className='flex gap-1 items-center text-sm px-2 py-1 rounded-xl ring-1 ring-inset ring-gray-600 bg-gray-100 dark:bg-gray-900 dark:text-white text-gray-800'>
       <div> { icon } </div>
       <span>{ label }</span>
     </div>

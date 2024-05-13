@@ -40,11 +40,11 @@ const tools = [
 
 export const Technologies = () => {
   return (
-    <div id='technologies' className='md:w-4/5 xl:w-9/12 m-auto md:p-3 sm:px-6 md:px-12 md:pt-12 md:pb-24'>
+    <div id='technologies' className='md:w-4/5 xl:w-9/12 m-auto md:p-3 sm:px-6 md:px-12 md:pt-12 md:pb-24 dark:text-white text-gray-800'>
       <h3 className='text-2xl md:text-4xl text-center'>Tecnologías</h3>
 
       <div className='px-6 md:px-20'>
-        <p className='my-10 text-gray-400 text-center md:text-left'>
+        <p className='my-10 text-gray-800 dark:text-gray-400 text-center md:text-left'>
           En estos años como <span className='text-amber-400 font-bold'>programador</span> he trabajado 
           con varias <span className='text-amber-400 font-bold'>tecnologias, frameworks, librerias y herramientas</span>.
         </p>

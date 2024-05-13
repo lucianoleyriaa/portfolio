@@ -10,7 +10,7 @@ interface Props {
 export const TechnologyCard = ({ title, technologies, styles }: Props) => {
   return (
     <div className={ `col-span-2 ${styles}`  }>
-      <div className='text-center rounded-lg bg-gray-900 py-2 px-3 md:py-4 md:px-6'>
+      <div className='text-center rounded-lg ring-1 ring-inset ring-gray-300 shadow-xl dark:shadow-none dark:ring-0 dark:bg-gray-900 py-2 px-3 md:py-4 md:px-6'>
         <h3 className='text-3xl my-2'>{ title }</h3>
 
         <div className='flex flex-wrap gap-8 justify-center items-center py-4 px-4'>
