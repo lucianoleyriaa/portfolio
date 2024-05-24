@@ -18,7 +18,7 @@ export const Projects = () => {
             a lo largo de los meses, facilitando la toma de decisiones para mejorar la situación financiera.
           '
           githubLink=''
-          pageLink='https://budget-app-sooty.vercel.app/auth/login'
+          pageLink='https://budget-app.lucianoleyria.com'
           projectPoster='/images/budget.png'
         >
           <TechnologyBadge 
