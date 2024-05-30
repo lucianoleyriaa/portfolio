@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Experience = () => {
   return (
-    <div id='experience' className='md:w-4/5 lg:w-2/3 xl:w-1/2 2xl:w-2/3 md:m-auto my-16 md:px-12 md:pt-12 md:pb-24'>
+    <div id='experience' className='md:w-4/5 lg:w-2/3 xl:w-2/2 2xl:w-2/3 md:m-auto my-16 md:px-12 md:pt-12 md:pb-24'>
       <h3 className='text-2xl xs:w-full md:text-4xl text-center text-gray-800 dark:text-white'>Experiencia</h3>
       <span className='text-sm md:text-base my-10 block m-auto w-max rounded-xl px-2 md:px-4 py-1 border-2 text-green-600 font-light border-green-600 text-center'>Open to work</span>
 

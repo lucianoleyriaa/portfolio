@@ -40,7 +40,7 @@ export const ProjectItem = ({ title, description, githubLink, pageLink, projectP
             </a> */}
             <a href={ pageLink } target='_blank' className='py-1 px-2 md:py-2 md:px-4 text-white rounded-3xl bg-indigo-600 hover:bg-indigo-400 transition hover:scale-105 duration-300 ease-out'>
               <i className="fa-solid fa-link mr-2"></i>
-              <span>Visit site</span>
+              <span>Ir al sitio</span>
             </a>
           </div>
         </div>

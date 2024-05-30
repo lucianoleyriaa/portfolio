@@ -50,7 +50,7 @@ export const AboutMe = () => {
         </div>
 
         <div className='text-center my-8 transition hover:scale-105 duration-300 ease-out text-white'>
-          <a href='/files/CV-Luciano-Leyria-English.pdf' download className='mr-4 cursor-pointer rounded-3xl bg-indigo-500 px-4 py-2 hover:bg-indigo-400'>Download CV</a>
+          <a href='/files/CV-Luciano-Leyria-English.pdf' download className='mr-4 cursor-pointer rounded-3xl bg-indigo-500 px-4 py-2 hover:bg-indigo-400'>Descargar CV</a>
         </div>
 
       </div>
